@@ -35,4 +35,4 @@ All the modern react js practices are being used in this project.
 
 
 
-You can see the website at - www.viveria.com
+You can see the website at - www.viveriahq.com
