@@ -1,0 +1,153 @@
+/******************** FAQ Header Start **********************/
+
+.faq-header {
+  width: 100%;
+  height: 18vh;
+  padding: 0 80px;
+  background: linear-gradient(230.76deg, #010c2e 0%, #003fb7 100%);
+  border-radius: 0px 0px 25px 25px;
+}
+
+/******************** FAQ Header End **********************/
+
+/******************** Accordian Section Start **********************/
+
+.accordian-container {
+  padding: 0 70px;
+  margin-top: 20vh;
+  margin-bottom: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 40px;
+}
+
+.accordian {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 20px;
+}
+
+.accordian .item {
+  width: 100%;
+  background: #002c6d;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
+  border-radius: 6px;
+  padding: 30px 20px;
+  cursor: pointer;
+}
+
+.accordian .item .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordian .item .title p {
+  font-weight: 400;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.accordian .item .title img {
+  width: 30px;
+  transition: 0.3s;
+  /* transform: rotate(180deg); */
+
+}
+
+.accordian .item .content {
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
+
+.accordian .item .content.show {
+  height: auto;
+  max-height: 9999px;
+  transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+}
+
+.accordian .item .content p {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+.accordian .reverse {
+  transition: 0.5s;
+  transform: rotate(180deg);
+}
+
+.accordian-container h1 {
+  margin-bottom: 50px;
+  font-weight: 500;
+  font-size: 48px;
+  color: #002c6d;
+}
+
+.accordian-container button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: #002c6d;
+  border-radius: 50px;
+  padding: 10px 30px;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.15);
+}
+
+@media (max-width: 800px) {
+  .accordian-container {
+    padding: 0 20px;
+    margin: 10vh 0;
+    gap: 20px;
+  }
+  .accordian-container h1 {
+    margin-bottom: 20px;
+    font-size: 40px;
+  }
+
+  .accordian {
+    gap: 10px;
+  }
+
+  .accordian .item {
+    border-radius: 10px;
+    padding: 20px 20px;
+  }
+
+  .accordian .item .title p {
+    font-size: 22px;
+  }
+
+  .accordian .item .content p {
+    font-size: 15px;
+  }
+}
+
+@media(max-width:500px){
+   .accordian-container h1 {
+    font-size: 25px;
+  }
+
+    .accordian .item .title p {
+    font-size: 19px;
+  }
+
+  .accordian .item .content p {
+    font-size: 15px;
+  }
+}
+
+/******************** Accordian Section End **********************/

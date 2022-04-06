@@ -1,0 +1,965 @@
+/************************ Home Header Start ***************************/
+
+.home-header {
+  width: 100%;
+  height: 90vh;
+  background: linear-gradient(230.76deg, #010c2e 0%, #003fb7 100%);
+  border-radius: 0px 0px 25px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 160px;
+}
+
+.home-header h1 {
+  font-weight: 500;
+  font-size: 48px;
+  color: #fff;
+}
+
+.home-header .white-background {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 0px 100px;
+}
+
+.home-header h2 {
+  font-weight: 500;
+  font-size: 36px;
+  color: #002c6d;
+}
+
+.home-header h3 {
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.home-header button {
+  background-color: #000;
+  color: #fff;
+  font-style: 400;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px 30px;
+  position: relative;
+  top: 50px;
+  cursor: pointer;
+}
+
+@media (max-width: 1100px) {
+  .home-header {
+    padding-top: 130px;
+  }
+
+  .home-header h1 {
+    font-size: 42px;
+  }
+
+  .home-header .white-background {
+    padding: 1px 130px;
+  }
+
+  .home-header h2 {
+    font-size: 30px;
+  }
+
+  .home-header h3 {
+    font-size: 16px;
+  }
+
+  .home-header button {
+    font-size: 20px;
+
+    padding: 10px 25px;
+
+    top: 40px;
+  }
+}
+
+@media (max-width: 800px) {
+  .home-header {
+    gap: 15px;
+    padding-top: 120px;
+  }
+
+  .home-header h1 {
+    font-size: 40px;
+  }
+
+  .home-header .white-background {
+    padding: 1px 100px;
+  }
+
+  .home-header h2 {
+    font-size: 28px;
+  }
+
+  .home-header h3 {
+    font-size: 14px;
+  }
+
+  .home-header button {
+    font-size: 18px;
+
+    padding: 10px 22px;
+
+    top: 30px;
+  }
+}
+
+@media (max-width: 650px) {
+  .home-header {
+    gap: 12px;
+    padding: 0 30px;
+    padding-top: 100px;
+  }
+
+  .home-header h1 {
+    font-size: 36px;
+  }
+
+  .home-header .white-background {
+    padding: 0.5px 60px;
+  }
+
+  .home-header h2 {
+    font-size: 23px;
+  }
+
+  .home-header h3 {
+    text-align: center;
+    font-size: 13px;
+  }
+
+  .home-header button {
+    font-size: 16px;
+
+    padding: 8px 20px;
+
+    top: 20px;
+  }
+}
+
+@media (max-width: 520px) {
+  .home-header {
+    gap: 12px;
+    padding: 0 30px;
+    padding-top: 100px;
+  }
+
+  .home-header h1 {
+    text-align: center;
+    font-size: 32px;
+  }
+
+  .home-header .white-background {
+    padding: 0.5px 50px;
+  }
+
+  .home-header h2 {
+    font-size: 18px;
+  }
+
+  .home-header h3 {
+    text-align: center;
+    font-size: 13px;
+  }
+
+  .home-header button {
+    font-size: 18px;
+
+    padding: 8px 70px;
+
+    top: 20px;
+  }
+}
+
+@media (max-width: 425px) {
+  .home-header {
+    gap: 20px;
+    padding: 0 20px;
+    padding-top: 100px;
+  }
+
+  .home-header h1 {
+    text-align: center;
+    font-size: 40px;
+    line-height: 45px;
+  }
+
+  .home-header .white-background {
+    padding: 1px 10px;
+  }
+
+  .home-header h2 {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .home-header h3 {
+    text-align: center;
+    font-size: 15px;
+  }
+}
+
+/************************ Home Header End ***************************/
+
+/************************ Wage Section Start ***************************/
+
+.wage {
+  width: 90%;
+  height: 256px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 25px;
+  margin: 10vh auto;
+  padding: 56px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.wage:hover {
+  transform: scale(1.05);
+}
+
+.wage h2 {
+  font-weight: 500;
+  font-size: 48px;
+  color: #002c6d;
+}
+
+.wage .wage-list .item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #002c6d;
+  padding: 10px 0;
+  width: 500px;
+}
+
+.wage .wage-list .item1 {
+  border-bottom: 1px solid #a6a6aa;
+}
+
+@media (max-width: 1200px) {
+  .wage {
+    height: 256px;
+    margin: 10vh 70px;
+    padding: 50px 60px;
+  }
+
+  .wage h2 {
+    font-size: 44px;
+  }
+
+  .wage .wage-list .item {
+    font-size: 17px;
+    width: 400px;
+  }
+}
+
+@media (max-width: 950px) {
+  .wage {
+    height: 240px;
+    margin: 9vh 50px;
+    padding: 40px 50px;
+  }
+
+  .wage h2 {
+    font-size: 42px;
+  }
+
+  .wage .wage-list .item {
+    font-size: 16px;
+    width: 350px;
+  }
+}
+
+@media (max-width: 840px) {
+  .wage {
+    height: 220px;
+    margin: 9vh 40px;
+    padding: 30px 40px;
+  }
+
+  .wage h2 {
+    font-size: 40px;
+  }
+
+  .wage .wage-list .item {
+    font-size: 16px;
+    width: 320px;
+  }
+}
+
+@media (max-width: 750px) {
+  .wage {
+    height: 220px;
+    margin: 9vh 30px;
+    padding: 30px;
+  }
+
+  .wage h2 {
+    font-size: 38px;
+  }
+
+  .wage .wage-list .item {
+    font-size: 15px;
+    width: 320px;
+  }
+}
+
+@media (max-width: 600px) {
+  .wage {
+    height: auto;
+    margin: 10vh 30px;
+    padding: 30px 20px;
+    flex-direction: column;
+  }
+
+  .wage h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .wage .wage-list .item {
+    gap: 10px;
+    font-size: 16px;
+    padding: 10px 0;
+    width: 400px;
+  }
+}
+
+@media (max-width: 460px) {
+  .wage {
+    width: 85%;
+    margin: 10vh auto;
+    padding: 30px 0px;
+    gap: 20px;
+  }
+
+  .wage h2 {
+    font-size: 35px;
+  }
+
+  .wage .wage-list .item {
+    gap: 10px;
+    font-size: 15px;
+    padding: 10px 0;
+    width: 300px;
+  }
+}
+
+/************************ Wage Section End ***************************/
+
+/************************ Wellbeing Section Start ***************************/
+
+.wellbeing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10vh 170px;
+  margin-top: 20vh;
+}
+
+.wellbeing h1 {
+  font-weight: 400;
+  font-size: 48px;
+  color: #002c6d;
+  text-align: center;
+  border-bottom: 3px solid #002c6d;
+}
+
+.wellbeing .item img {
+  width: 400px;
+}
+
+.wellbeing .item-reverse img {
+  width: 400px;
+}
+
+.wellbeing .item {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 80px;
+  gap: 200px;
+}
+
+.wellbeing .item-reverse {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row-reverse;
+  padding: 0 80px;
+  gap: 100px;
+}
+
+.wellbeing .item-details {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.wellbeing h2 {
+  font-weight: 600;
+  font-size: 36px;
+  color: #3a3a3a;
+}
+
+.wellbeing span {
+  color: #002c6d;
+}
+
+.wellbeing p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #3a3a3a;
+}
+
+.wellbeing a {
+  font-weight: 400;
+  font-size: 16px;
+  color: #002c6d;
+}
+
+.wellbeing button {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: #002c6d;
+  border-radius: 50px;
+  padding: 10px 30px;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+@media (max-width: 1500px) {
+  .wellbeing {
+    margin: 10vh 150px;
+  }
+}
+
+@media (max-width: 1460px) {
+  .wellbeing {
+    margin: 10vh 100px;
+  }
+}
+
+@media (max-width: 1370px) {
+  .wellbeing {
+    margin: 10vh 80px;
+  }
+  .wellbeing h1 {
+    font-size: 43px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .wellbeing {
+    margin: 10vh 60px;
+  }
+
+  .wellbeing h1 {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .wellbeing {
+    margin: 10vh 70px;
+  }
+
+  .wellbeing h1 {
+    font-size: 40px;
+  }
+
+  .wellbeing .item {
+    margin-top: 50px;
+    padding: 0 30px;
+  }
+
+  .wellbeing .item-details {
+    width: 50%;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .wellbeing h2 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .wellbeing p {
+    font-size: 16px;
+  }
+
+  .wellbeing a {
+    font-size: 16px;
+  }
+
+  .wellbeing .item-reverse {
+    margin-top: 50px;
+    padding: 0 30px;
+    gap: 50px;
+  }
+
+  .wellbeing button {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 900px) {
+  .wellbeing {
+    margin: 10vh 20px;
+  }
+
+  .wellbeing h1 {
+    font-size: 38px;
+    line-height: 50px;
+  }
+
+  .wellbeing .item {
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 20px;
+    padding: 0 20px;
+  }
+
+  .wellbeing .item-reverse {
+    flex-direction: column;
+    margin-top: 80px;
+
+    padding: 0 20px;
+  }
+  .wellbeing .item-details {
+    width: 100%;
+  }
+  .wellbeing h2 {
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+  }
+
+  .wellbeing p {
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .wellbeing h1 {
+    width: 400px;
+    margin: 0 auto;
+    font-size: 30px;
+    line-height: 45px;
+  }
+  .wellbeing .item img {
+    width: 300px;
+  }
+  .wellbeing .item-reverse img {
+    width: 300px;
+  }
+
+  .wellbeing .item {
+    margin-top: 30px;
+    gap: 10px;
+    padding: 0 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .wellbeing .item-reverse {
+    flex-direction: column;
+    margin-top: 60px;
+    gap: 10px;
+    padding: 0 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .wellbeing .item-details {
+    gap: 20px;
+  }
+
+  .wellbeing h2 {
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+  }
+
+  .wellbeing p {
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .wellbeing h1 {
+    font-size: 30px;
+    line-height: 45px;
+    width: 300px;
+  }
+}
+/************************ Wellbeing Section End ***************************/
+
+/************************ Survey Section Start ***************************/
+
+.survey {
+  background: #002c6d;
+  color: #fff;
+  padding: 50px 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+}
+
+.survey h1 {
+  font-weight: 500;
+  font-size: 48px;
+}
+
+.survey .list .list-item {
+  padding: 15px 0;
+  width: 450px;
+}
+
+.survey .list .list-item p {
+  color: #00c79e;
+  font-size: 25px;
+  line-height: 35px;
+  text-align: center;
+}
+
+@media (max-width: 1400px) {
+  .survey {
+    padding: 50px 150px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .survey {
+    padding: 50px 120px;
+    height: 300px;
+  }
+
+  .survey h1 {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .survey {
+    padding: 40px 100px;
+  }
+
+  .survey h1 {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 900px) {
+  .survey {
+    flex-direction: column;
+    padding: 50px 100px;
+    gap: 20px;
+    height: auto;
+    padding-bottom: 100px;
+  }
+
+  .survey h1 {
+    font-size: 45px;
+  }
+
+  .survey .list .list-item {
+    align-items: center;
+    height: 50px;
+  }
+  .survey .list .list-item p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 600px) {
+  .survey {
+    padding: 40px 20px;
+    gap: 5px;
+    padding-bottom: 80px;
+  }
+
+  .survey h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .survey .list .list-item {
+    width: 400px;
+  }
+
+  .survey .list .list-item p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 425px) {
+  .survey {
+    padding: 20px 10px;
+    gap: 1px;
+    padding-bottom: 60px;
+  }
+
+  .survey h1 {
+    font-size: 20px;
+  }
+
+  .survey .list .list-item {
+    width: 320px;
+  }
+
+   .survey .list .list-item p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+
+/************************ Survey Section End ***************************/
+
+/************************ Good Section Start ***************************/
+
+.good {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 100px 200px;
+  gap: 100px;
+}
+
+.good h2 {
+  margin-bottom: 40px;
+  font-weight: 600;
+  font-size: 36px;
+  color: #002c6d;
+}
+
+.business {
+  width: 50%;
+}
+
+.employee {
+  width: 50%;
+}
+
+.good .business .section {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.good .employee .section {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  gap: 45px;
+}
+
+.good .section .item {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid #a6a6aa;
+  padding-bottom: 30px;
+  gap: 10px;
+}
+
+.good .section .item .border {
+  width: 100px;
+  border-bottom: 1px solid #a6a6aa;
+}
+
+#root > section.good > div.business > div > div:nth-child(5) {
+  border: none;
+}
+
+#root > section.good > div.employee > div > div:nth-child(4) {
+  border: none;
+}
+
+@media (max-width: 1300px) {
+  .good {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 100px 170px;
+    gap: 90px;
+  }
+
+  .good h2 {
+    margin-bottom: 37px;
+    font-weight: 600;
+    font-size: 36px;
+    color: #002c6d;
+  }
+
+  .good .business .section {
+    width: 400px;
+
+    gap: 30px;
+  }
+
+  .good .employee .section {
+    width: 400px;
+
+    gap: 45px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .good {
+    flex-direction: column;
+
+    align-items: center;
+    padding: 100px;
+    gap: 100px;
+  }
+
+  .good h2 {
+    margin-bottom: 40px;
+    font-weight: 600;
+    font-size: 36px;
+    color: #002c6d;
+  }
+
+  .business {
+    width: 100%;
+  }
+
+  .employee {
+    width: 100%;
+  }
+
+  .good .business .section {
+    width: 100%;
+
+    gap: 20px;
+  }
+
+  .good .employee .section {
+    width: 100%;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .good {
+    padding: 50px 20px;
+    gap: 50px;
+  }
+}
+
+/************************ Good Section End ***************************/
+
+/************************ Paycheck Section Start ***************************/
+.paycheck {
+  position: relative;
+  top: 25px;
+  z-index: 1;
+  background: #002c6d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  color: #fff;
+  padding: 70px 100px;
+}
+
+.paycheck p {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.paycheck h1 {
+  font-weight: 500;
+  font-size: 48px;
+}
+
+.paycheck button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: #002c6d;
+  border-radius: 50px;
+  padding: 10px 30px;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.15);
+}
+
+@media (max-width: 1100px) {
+  .paycheck {
+    padding: 70px 50px;
+  }
+
+  .paycheck h1 {
+    text-align: center;
+    font-size: 45px;
+  }
+
+  .paycheck p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .paycheck {
+    padding: 30px 20px;
+    padding-bottom: 100pxF;
+  }
+
+  .paycheck h1 {
+    text-align: center;
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 425px) {
+  .paycheck h1 {
+    font-size: 30px;
+  }
+
+  .paycheck p {
+    font-size: 16px;
+  }
+}
+/************************ Paycheck Section End ***************************/

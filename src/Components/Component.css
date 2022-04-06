@@ -1,0 +1,447 @@
+/************************* Navbar Start *************************/
+
+.navbar {
+  width: 100%;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 70px;
+}
+
+.navbar .logo a img {
+  height: 70px;
+}
+.navbar .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.navbar .menu a {
+  font-weight: 400;
+  font-size: 16px;
+  color: #a6a6aa;
+}
+
+.navbar .hamburger {
+  display: none;
+}
+
+#root > nav > div.menu > svg {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .navbar {
+    padding: 10px 30px;
+  }
+
+  .navbar .logo a img {
+    height: 50px;
+  }
+  .navbar .hamburger {
+    display: block;
+  }
+
+  #root > nav > div.menu > svg {
+    display: block;
+  }
+
+  .navbar .menu {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 50%;
+    gap: 2rem;
+    top: 0;
+    left: -100%;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    transition: 0.3s;
+    z-index: 99999999;
+    background: linear-gradient(230.76deg, #010c2e 0%, #003fb7 100%);
+  }
+  .navbar .menu.active {
+    left: 0;
+  }
+
+  .navbar .menu a {
+    font-size: 20px;
+  }
+}
+
+/************************* Navbar End *************************/
+
+/************************* Footer Start *************************/
+.footer {
+  width: 100%;
+  position: relative;
+  z-index: 3;
+  background: linear-gradient(230.76deg, #010c2e 0%, #003fb7 100%);
+  border-radius: 25px 25px 0px 0px;
+  padding: 50px 70px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer .upper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 130px;
+}
+
+.footer .upper .section1 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.footer .upper .section1 .logo img {
+  width: 150px;
+}
+
+.footer .upper .section1 .company {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.footer .upper .section1 .company h2 {
+  font-weight: 500;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.footer .upper .section1 .company a {
+  font-weight: 400;
+  font-size: 20px;
+  color: #cbcbd4;
+}
+
+.footer .upper .section1 .links {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.footer .upper .section1 .links h2 {
+  font-weight: 500;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.footer .upper .section1 .links a {
+  font-weight: 400;
+  font-size: 20px;
+  color: #cbcbd4;
+}
+
+.footer .upper .section2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.footer .upper .section2 .sign-up {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer .upper .section2 .sign-up h2 {
+  font-weight: 500;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.footer .upper .section2 .sign-up .form input {
+  background: #002c6d;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  font-weight: 400;
+  font-size: 16px;
+  color: #a6a6aa;
+  padding: 15px;
+  width: 450px;
+}
+
+.footer .upper .section2 .sign-up .form button {
+  position: relative;
+  right: 50px;
+  background: #ffffff;
+  border: 2.5px solid #ffffff;
+  border-radius: 50px;
+  font-weight: 500;
+  font-size: 22px;
+  text-align: center;
+  color: #002c6d;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+.footer .upper .section2 .mail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-right: 50px;
+}
+
+.footer .upper .section2 .mail a {
+  font-weight: 400;
+  font-size: 20px;
+  color: #cbcbd4;
+}
+
+.footer .lower {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer .lower .border {
+  width: 1300px;
+  border-top: 1px solid #ffffff;
+}
+
+.footer .lower .conclusion {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 600px;
+}
+
+.footer .lower .conclusion p {
+  font-weight: 500;
+  font-size: 17px;
+  color: #cecece;
+}
+
+@media (max-width: 1441px) {
+  .footer {
+    padding: 50px 30px;
+  }
+  .footer .upper {
+    gap: 100px;
+  }
+}
+
+@media (max-width: 1332px) {
+  .footer .upper .section2 .sign-up .form input {
+    padding: 17px 15px;
+    width: 350px;
+    font-size: 15px;
+  }
+  .footer .upper .section2 .sign-up .form button {
+    font-size: 15px;
+    padding: 10px 15px;
+    right: 40px;
+  }
+
+  .footer .lower .border {
+    width: 1100px;
+  }
+
+  .footer .lower .conclusion {
+    gap: 400px;
+  }
+}
+
+@media (max-width: 1186px) {
+  .footer .upper {
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+  .footer .upper .section1 {
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .footer .upper .section1 .company {
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .footer .upper .section1 .links {
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .footer .upper .section2 {
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .footer .upper .section2 .sign-up {
+    align-items: center;
+    gap: 40px;
+  }
+
+  .footer .upper .section2 .sign-up .form input {
+    font-size: 14px;
+    padding: 15px;
+    width: 350px;
+  }
+
+  .footer .upper .section2 .sign-up .form button {
+    font-size: 20px;
+
+    padding: 5px 15px;
+  }
+
+  .footer .lower .border {
+    width: 700px;
+  }
+
+  .footer .lower .conclusion {
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  .footer .upper {
+    gap: 40px;
+  }
+  .footer .upper .section1 {
+    gap: 30px;
+  }
+
+  .footer .upper .section1 .company {
+    gap: 10px;
+  }
+
+  .footer .upper .section1 .links {
+    gap: 10px;
+  }
+
+  .footer .upper .section2 {
+    gap: 30px;
+  }
+
+  .footer .upper .section2 .sign-up {
+    gap: 20px;
+  }
+
+  .footer .lower .border {
+    width: 500px;
+  }
+
+  .footer .lower .conclusion {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 625px) {
+  .footer .upper .section2 .sign-up h2 {
+    text-align: center;
+    font-size: 22px;
+  }
+  .footer .upper .section2 .sign-up .form input {
+    font-size: 14px;
+    padding: 15px;
+    width: 300px;
+  }
+
+  .footer .upper .section2 .sign-up .form button {
+    font-size: 17px;
+    padding: 5px 12px;
+  }
+  .footer .upper .section2 .mail {
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 554px) {
+  .footer .upper .section2 .sign-up .form input {
+    padding: 12px 15px;
+    width: 250px;
+  }
+
+  .footer .upper .section2 .sign-up .form button {
+    font-size: 15px;
+    padding: 5px 10px;
+    right: 20px;
+  }
+
+  .footer .lower .border {
+    width: 400px;
+  }
+}
+
+@media (max-width: 510px) {
+  .footer .upper .section2 .sign-up .form {
+    align-items: center;
+  }
+
+  .footer .upper .section2 .sign-up .form input {
+    padding: 15px 13px;
+    width: 200px;
+    font-size: 11px;
+  }
+
+  .footer .upper .section2 .sign-up .form button {
+    font-size: 11px;
+    padding: 7.5px 12px;
+    right: 20px;
+  }
+
+  .footer .lower .border {
+    width: 300px;
+  }
+
+  .footer .lower .conclusion p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .footer .upper .section1 .company h2 {
+    font-size: 22px;
+  }
+
+  .footer .upper .section1 .company a {
+    font-size: 18px;
+  }
+
+  .footer .upper .section1 .links h2 {
+    font-size: 22px;
+  }
+
+  .footer .upper .section1 .links a {
+    font-size: 18px;
+  }
+}
+/************************* Footer End *************************/

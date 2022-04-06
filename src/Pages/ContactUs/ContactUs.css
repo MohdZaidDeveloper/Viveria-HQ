@@ -1,0 +1,261 @@
+/************************ Contact Header End ************************/
+
+.contact-header {
+  width: 100%;
+  height: 70vh;
+  padding: 0 80px;
+  background: linear-gradient(230.76deg, #010c2e 0%, #003fb7 100%);
+  border-radius: 0px 0px 25px 25px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 40px 200px;
+}
+
+.contact-header h1 {
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 90px;
+  text-align: center;
+  color: #cbcbd4;
+}
+
+.contact-header h1 span {
+  font-weight: 700;
+}
+
+@media (max-width: 1200px) {
+  .contact-header {
+    padding: 40px 100px;
+    padding-bottom: 60px;
+  }
+
+  .contact-header h1 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .contact-header {
+    padding: 40px 80px;
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 900px) {
+  .contact-header {
+    padding: 40px 80px;
+    padding-bottom: 50px;
+  }
+  .contact-header h1 {
+    font-size: 45px;
+    line-height: 70px;
+  }
+}
+
+@media (max-width: 800px) {
+  .contact-header {
+    padding: 40px 50px;
+    padding-bottom: 50px;
+  }
+  .contact-header h1 {
+    font-size: 42px;
+    line-height: 65px;
+  }
+}
+
+@media (max-width: 690px) {
+  .contact-header {
+    padding: 40px;
+    padding-bottom: 45px;
+  }
+  .contact-header h1 {
+    font-size: 40px;
+    line-height: 65px;
+  }
+}
+
+@media (max-width: 500px) {
+  .contact-header {
+    align-items: center;
+    padding: 20px;
+  }
+  .contact-header h1 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+}
+
+/************************ Contact Header End ************************/
+
+/************************ Enquiry Section Start ************************/
+
+.enquiry {
+  padding: 100px 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.enquiry h2 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.enquiry button {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 30px;
+  padding-right: 150px;
+  background: #ffffff;
+  border: 3px solid #002c6d;
+  box-sizing: border-box;
+  border-radius: 60px;
+}
+
+.enquiry button h3 {
+  font-weight: 400;
+  font-size: 22px;
+  color: #3a3a3a;
+}
+
+.enquiry button h3 span {
+  font-weight: 600;
+}
+
+@media (max-width: 720px) {
+  .enquiry {
+    padding: 70px 30px;
+
+    gap: 40px;
+  }
+  .enquiry h2 {
+    text-align: center;
+  }
+
+  .enquiry button {
+    gap: 20px;
+    padding: 10px 40px;
+  }
+
+  .enquiry button h3 {
+    font-size: 18px;
+  }
+}
+/************************ Enquiry Section End ************************/
+
+.overlay {
+  overflow-y: hidden;
+  position: fixed;
+  z-index: 999999999999999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.overlay .contact {
+  background-color: white;
+  padding: 60px 40px;
+  position: relative;
+  border-radius: 15px;
+}
+
+.overlay .contact .contact-img {
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.overlay .contact h2 {
+  color: #2c4364;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.overlay .contact .field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.overlay .contact label {
+  display: block;
+  color: #2c4364;
+  font-size: 20px;
+}
+
+.overlay .contact input {
+  padding: 15px 20px;
+  padding-right: 50px;
+  border-radius: 50px;
+  font-size: 15px;
+  color: black;
+  background-color: #cbcbd4;
+  border: none;
+}
+
+.overlay .contact textarea {
+  width: 100%;
+  padding: 15px 20px;
+  border-radius: 25px;
+  font-size: 15px;
+  color: black;
+  background-color: #cbcbd4;
+  border: none;
+}
+
+.overlay .contact .btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.overlay .contact .btn button {
+  margin-top: 20px;
+  background: #002c6d;
+  border-radius: 50px;
+  padding: 10px 30px;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.15);
+}
+
+@media (max-width: 600px) {
+  .overlay .contact {
+    margin:0 20px;
+    padding: 40px 20px;
+    height: auto;
+  }
+
+  .overlay .contact .field {
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+
+  .overlay .contact input {
+    width: 100%;
+  }
+
+  .overlay .contact h2 {
+    font-size: 28px;
+  }
+
+}

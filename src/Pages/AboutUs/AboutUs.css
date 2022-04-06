@@ -1,0 +1,314 @@
+/************************ About Header Start ***************************/
+
+.about-header {
+  width: 100%;
+  height: 90vh;
+  padding: 0 80px;
+  background: linear-gradient(230.76deg, #010c2e 0%, #003fb7 100%);
+  border-radius: 0px 0px 25px 25px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 70px;
+}
+
+.about-header .left-section {
+  margin-top: 100px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.about-header .left-section h1 {
+  font-weight: 500;
+  font-size: 85px;
+  color: #cbcbd4;
+}
+
+.about-header .left-section h1 span {
+  font-weight: 700;
+}
+
+.about-header .left-section p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #cbcbd4;
+}
+
+.about-header .left-section .downtext {
+  padding-top: 20px;
+}
+
+.about-header .right-section img {
+  position: relative;
+  width: 550px;
+  top: 140px;
+  left: -40px;
+}
+
+@media (max-width: 1400px) {
+  .about-header {
+    gap: 60px;
+  }
+
+  .about-header .left-section {
+    margin-top: 100px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .about-header .left-section h1 {
+    font-size: 70px;
+  }
+
+  .about-header .left-section p {
+    font-size: 16px;
+  }
+
+  .about-header .left-section .downtext {
+    padding-top: 5px;
+  }
+
+  .about-header .right-section img {
+    position: relative;
+    width: 500px;
+    top: 170px;
+    left: -20px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .about-header .left-section h1 {
+    font-size: 60px;
+  }
+
+  .about-header .left-section p {
+    font-size: 15px;
+  }
+
+  .about-header .right-section img {
+    position: relative;
+    width: 450px;
+    top: 180px;
+    left: -20px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .about-header {
+    flex-direction: column;
+    height: auto;
+    padding: 0 10px;
+    padding-top: 100px;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .about-header .right-section img {
+    position: static;
+    width: 350px;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-header {
+    padding: 0 30px;
+
+    padding-top: 20px;
+    gap: 20px;
+  }
+
+  .about-header .left-section {
+    width: 100%;
+  }
+
+  .about-header .right-section img {
+    position: static;
+    width: 300px;
+  }
+
+  .about-header .left-section h1 {
+    font-size: 40px;
+  }
+
+  .about-header .left-section p {
+    font-size: 15px;
+  }
+}
+/************************ About Header End ***************************/
+
+/************************ Aim Section Start ***************************/
+
+.aim {
+  position: relative;
+  z-index: 2;
+  margin-top: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.aim h1 {
+  font-weight: 400;
+  font-size: 48px;
+  color: #002c6d;
+}
+
+.aim .border {
+  margin-top: 20px;
+  width: 1000px;
+  border-bottom: 3px solid #002c6d;
+}
+
+.aim .cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 55px;
+  margin-top: 85px;
+}
+
+.aim .cards .card {
+  width: 316px;
+  height: 420px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  background: #ffffff;
+  box-shadow: 0px -4px 18px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+  padding: 30px 20px;
+}
+
+.aim .cards .card img {
+  width: 100px;
+}
+
+.aim .cards .card h3 {
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  color: #002c6d;
+}
+
+.aim .cards .card p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #3a3a3a;
+}
+
+#root > div > section.aim > div.cards > div:nth-child(2) > h3 {
+  margin-top: 15px;
+}
+
+#root > div > section.aim > div.cards > div:nth-child(2) > p {
+  margin-top: 20px;
+}
+
+@media (max-width: 1200px) {
+  .aim h1 {
+    font-size: 45px;
+  }
+
+  .aim .border {
+    width: 700px;
+  }
+
+  .aim .cards {
+    gap: 40px;
+    margin-top: 75px;
+  }
+
+  .aim .cards .card {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .aim .cards {
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 65px;
+  }
+
+  .aim .cards .card {
+    width: 316px;
+    height: 420px;
+
+    justify-content: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .aim h1 {
+    font-size: 40px;
+  }
+
+  .aim .border {
+    width: 500px;
+  }
+}
+
+@media (max-width: 550px) {
+  .aim .cards .card {
+    width: 276px;
+    height: 380px;
+  }
+  .aim h1 {
+    font-size: 40px;
+  }
+
+  .aim .border {
+    width: 300px;
+  }
+}
+
+/************************ Get Started Sub Section Start ***************************/
+.container {
+  position: relative;
+  z-index: 2;
+}
+
+.get-started {
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  bottom: -200px;
+  background: #002c6d;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 100px;
+  height: 346px;
+}
+
+.get-started button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: #002c6d;
+  border-radius: 50px;
+  padding: 10px 30px;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.15);
+}
+
+/************************ Get Started Sub Section End ***************************/
+
+/************************ Aim Section End ***************************/
