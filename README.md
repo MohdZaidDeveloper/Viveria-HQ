@@ -27,8 +27,8 @@ Several Hooks are being used. Some of them are -
 The Entire project is fully responsive. Css Media queries are used to make the website responsive.
 
 
-<img src="https://user-images.githubusercontent.com/103094638/161905095-526da129-bac2-4030-8936-6028760ec367.jpeg" width="150" height="300">
-<img src="https://user-images.githubusercontent.com/103094638/161905101-953ee0c3-2e6d-499a-9460-853ead5bd251.jpeg" width="150" height="300">
+<img src="https://user-images.githubusercontent.com/103094638/161905095-526da129-bac2-4030-8936-6028760ec367.jpeg" width="300" height="400">
+<img src="https://user-images.githubusercontent.com/103094638/161905101-953ee0c3-2e6d-499a-9460-853ead5bd251.jpeg" width="300" height="400">
 
 
 All the modern react js practices are being used in this project.
