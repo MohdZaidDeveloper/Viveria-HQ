@@ -30,7 +30,7 @@ const EmployerContact = (props) => {
     event.preventDefault();
     const { name, phone, email, size, message, company, job } = userData;
 
-    if (name && phone && email && company && job &&  size && phone.length == 10) {
+    if (name && phone && email && company && job &&  size && phone.length === 10) {
       const res = await fetch(
         "https://employer-data-400e3-default-rtdb.firebaseio.com/Employer-Form-Data.json",
         {

@@ -1,4 +1,3 @@
-import bg from "../../../Assets/bg.jpg"
 
 const Experience = (props) => {
   const { data1, data2, data3 } = props;

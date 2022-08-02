@@ -7,7 +7,6 @@ const Enquiry = () => {
   const [employeeContact, setEmployeeContact] = useState(false);
   const [employerContact, setEmployerContact] = useState(false);
 
-  const [modal, setModal] = useState(false);
 
   const handleEmployer = () => {
     setEmployerContact(!employerContact);

@@ -24,6 +24,7 @@ const Navbar = () => {
       path: "/contact-us",
       page: "Contact Us",
     },
+    
   ];
 
   const [click, setClick] = useState(false);
@@ -36,10 +37,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="logo">
         <Link to="/">
-          <img
-            src={require("../Assets/logo.png")}
-            alt=""
-          />
+          <img src={require("../Assets/logo.png")} alt="" />
         </Link>
       </div>
 
@@ -68,6 +66,8 @@ const Navbar = () => {
             </NavLink>
           );
         })}
+
+        <a href="https://rupid.in/apu/auth">Login</a>
       </div>
 
       <div className="hamburger" onClick={handleClick}>
